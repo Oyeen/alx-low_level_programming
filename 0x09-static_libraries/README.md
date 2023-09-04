@@ -1,1 +1,1 @@
-my readme file for 0x09-static libraries
+readme file for static libraries, task 0x09.C
