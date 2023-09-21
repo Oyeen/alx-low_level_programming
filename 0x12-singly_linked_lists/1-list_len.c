@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * list_len - check the code for Holberton School students.
- * @h: represents the name of the list
- * Return: represents the number of nodes in the list.
+ * list_len - nodes list
+ * @h: will represent the name of the list
+ * Return: will represent the number of nodes.
  */
 size_t list_len(const list_t *h)
 {
