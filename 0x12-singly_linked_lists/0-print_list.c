@@ -1,23 +1,29 @@
-#include "lists.h"
+#include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
- * print_list - Prints elements of a singly linked list.
- * @h: Pointer to a list.
- * Return: an integer.
- **/
-
+ * print_list - check the code for Holberton School students.
+ * @h: represents the name of the list
+ * Return: number of nodes in the list.
+ */
 size_t print_list(const list_t *h)
 {
-	const list_t *sp;
-	unsigned int cntr = 0;
+	int count = 0;
 
-	sp = h;
-	while (sp)
+	while (h)
 	{
-		printf("%d\n", sp->n);
-		cntr++;
-		sp = sp->next;
+		if (h->str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
+		else
+		{
+		printf("[%d] %s\n", h->len, h->str);
+		}
+		count++;
+		h = h->next;
 	}
-	return (cntr);
+	return (count);
 }
