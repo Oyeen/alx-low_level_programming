@@ -2,7 +2,7 @@
 
 /**
  * print_list - will safely print a linked list.
- * @head: represents the list of type list_t to print
+ * @head: represents the list of the type list_t to print
  *
  * Return: represents the number of nodes in the list
  */
