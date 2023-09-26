@@ -5,7 +5,7 @@
  * @head: head node is the first node in the list
  * @index: position of where the node to return
  *
- * Return: pointer to the node we're looking for, or NULL
+ * Return: pointer to the node, or NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
