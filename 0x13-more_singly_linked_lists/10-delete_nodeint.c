@@ -2,8 +2,8 @@
 
 /**
  * delete_nodeint_at_index - to delete a node at a certain position
- * @head: first node in the ;list
- * @index: possition of the node to be deleted
+ * @head: first node in the list
+ * @index: position of the node to be deleted
  *
  * Return: 1 (Success), or -1 (Fail)
  */
