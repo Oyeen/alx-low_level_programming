@@ -2,7 +2,7 @@
 
 /**
  * free_listint - will free a linked list
- * @head: list to be freed
+ * @head:first node on the list
  */
 void free_listint(listint_t *head)
 {
